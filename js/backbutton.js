@@ -1,0 +1,1 @@
+document.write('<div style="right: 0; top: 50%"><img src="img/back.png" width="200" height="200"></div>');

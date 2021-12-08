@@ -1,0 +1,123 @@
+@keyframes appear
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-moz-keyframes appear /* Firefox */
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-webkit-keyframes appear /* Safari 和 Chrome */
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-o-keyframes appear /* Opera */
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+body {
+    font-family: Menlo,serif;
+    background:url(background.png);
+    background-color: rgb(36, 40, 41);
+    min-height: 100%;
+}
+
+#web{
+    /*保证footer是相对于container位置绝对定位*/
+    position:relative;  
+    width:100%;
+    min-height:100%; 
+    /*设置padding-bottom值大于等于footer的height值，以保证main的内容能够全部显示出来而不被footer遮盖；*/  
+    padding-bottom: 100px;  
+    box-sizing: border-box;
+}
+
+footer{
+    width: 100%;
+    height:100px;   /* footer的高度一定要是固定值*/ 
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    background: #333;
+}
+
+#web h1{
+    background-color: #0f5c52;
+    color:#ffffff;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    height: 50%;
+    width:100%;
+    padding:5px;
+}
+
+.navone div{
+    animation: appear 5s;
+    -moz-animation: appear 5s;	/* Firefox */
+    -webkit-animation: appear 5s;	/* Safari 和 Chrome */
+    -o-animation: appear 5s;	/* Opera */
+}
+.navone ul{
+    list-style-type:none;
+}
+.navone a{
+    float: left;
+    background-color: aqua;
+    text-align:center;
+    text-decoration:none;
+    font-family: Menlo,serif;
+    font-size:28px;
+    height:175px;
+    width:175px;
+    padding:5px;
+    margin: 5px;
+    /*outline:rgb(255, 153, 0) dotted thick;*/
+}
+
+.navtwo ul{
+    list-style-type:none;
+}
+.navtwo a{
+    float: right;
+    background-color:rgb(255, 153, 0);
+    text-align:center;
+    text-decoration:none;
+    font-family: Menlo,serif;
+    font-size:28px;
+    height:175px;
+    width:175px;
+    padding:5px;
+    margin: 5px;
+}
+
+/*.nav a{
+    text-align:center;
+    text-decoration:none;
+    font-family: Menlo,serif;
+    font-size:28px;
+    background-color: #ffffff;
+    a:link {color:#FF0000;}
+    a:visited {color:#00c3ff;}
+    a:hover {color:#FF00FF;}
+    a:active {color:#0000FF;}
+}
+
+.mydata a{
+    text-align:center;
+    text-decoration:none;
+    font-family: Menlo,serif;
+    font-size:28px;
+    background-color: #ffffff;
+    a:link {color:#FF0000;}
+    a:visited {color:#00c3ff;}
+    a:hover {color:#FF00FF;}
+    a:active {color:#0000FF;}
+}*/

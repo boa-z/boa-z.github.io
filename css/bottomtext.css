@@ -1,0 +1,22 @@
+.cpbottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: rgba(255, 255, 255, 0.45);
+	text-shadow: 0 0 2px rgba(255, 255, 255, 0.95);
+}
+
+.cptitle {
+	top: 0;
+	width: 100%;
+	position: absolute;
+	color: rgba(255, 255, 255, 0.45);
+	text-shadow: 0 0 2px rgba(255, 255, 255, 0.95);
+	font-size: 20px;
+}
+
+.backbutton {
+	top: 50%;
+	right:0;
+	position: absolute;
+}

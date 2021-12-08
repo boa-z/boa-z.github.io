@@ -1,0 +1,26 @@
+body {
+    font-family: Menlo,serif;
+    background-color: #303030;
+}
+
+#aigch-footer div{
+    background-color: #ffffff;
+}
+
+#aigch-footer div{
+  bottom: 0px;
+  left: 0px;
+  color: #666;
+  width: 100%;
+  clear: both;//清除浮动
+  line-height: 90px;
+  background-color: #ebebed;
+}
+#aigch-footer a{
+    text-align:center; 
+    margin:0 auto;
+    a:link {color:#FF0000;}
+    a:visited {color:#00c3ff;}
+    a:hover {color:rgb(0, 255, 149);}
+    a:active {color:#0000FF;}
+}
