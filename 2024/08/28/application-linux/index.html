@@ -1,0 +1,247 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>application-linux | NMSL</title><meta name="author" content="boa"><meta name="copyright" content="boa"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Linux ApplicationInstall App on LinuxaptDebian 软件源 Ubuntu Old Releases 源使用帮助 换国内源: nano &#x2F;etc&#x2F;apt&#x2F;sources.list (使用非自由软件源) 更新源: sudo apt update 升级软件: sudo apt update &amp;&amp; apt upgrade 清理缓存: sudo ap">
+<meta property="og:type" content="article">
+<meta property="og:title" content="application-linux">
+<meta property="og:url" content="http://boa-z.github.io/2024/08/28/application-linux/index.html">
+<meta property="og:site_name" content="NMSL">
+<meta property="og:description" content="Linux ApplicationInstall App on LinuxaptDebian 软件源 Ubuntu Old Releases 源使用帮助 换国内源: nano &#x2F;etc&#x2F;apt&#x2F;sources.list (使用非自由软件源) 更新源: sudo apt update 升级软件: sudo apt update &amp;&amp; apt upgrade 清理缓存: sudo ap">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2024-08-28T13:40:14.000Z">
+<meta property="article:modified_time" content="2024-08-28T13:40:14.993Z">
+<meta property="article:author" content="boa">
+<meta property="article:tag" content="application">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://boa-z.github.io/2024/08/28/application-linux/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'application-linux',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-08-28 21:40:14'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">20</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="NMSL"><span class="site-name">NMSL</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">application-linux</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2024-08-28T13:40:14.000Z" title="Created 2024-08-28 21:40:14">2024-08-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2024-08-28T13:40:14.993Z" title="Updated 2024-08-28 21:40:14">2024-08-28</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Memo/">Memo</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="application-linux"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="Linux-Application"><a href="#Linux-Application" class="headerlink" title="Linux Application"></a>Linux Application</h1><h2 id="Install-App-on-Linux"><a href="#Install-App-on-Linux" class="headerlink" title="Install App on Linux"></a>Install App on Linux</h2><h3 id="apt"><a href="#apt" class="headerlink" title="apt"></a>apt</h3><p><a target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/help/debian/">Debian 软件源</a></p>
+<p><a target="_blank" rel="noopener" href="https://mirrors.ustc.edu.cn/help/ubuntu-old-releases.html">Ubuntu Old Releases 源使用帮助</a></p>
+<p>换国内源: <code>nano /etc/apt/sources.list</code> (使用非自由软件源)</p>
+<p>更新源: <code>sudo apt update</code></p>
+<p>升级软件: <code>sudo apt update &amp;&amp; apt upgrade</code></p>
+<p>清理缓存: <code>sudo apt clean</code></p>
+<hr>
+<p><a target="_blank" rel="noopener" href="https://www.freecodecamp.org/news/sudo-apt-get-update-vs-upgrade-what-is-the-difference/">sudo apt-get update vs upgrade – What is the Difference?</a></p>
+<hr>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 3938 (pacWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 3938 (packagekitd)       </span><br></pre></td></tr></table></figure>
+
+<p>解决方法: <del><code>sudo killall apt apt-get</code></del></p>
+<p>看看这几个文件是被哪个进程锁住的: <code>sudo lsof /var/lib/dpkg/lock-frontend</code></p>
+<hr>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Selecting previously unselected package liberror-perl.</span><br><span class="line">dpkg: unrecoverable fatal error, aborting:</span><br><span class="line"> files list file for package &#x27;systemd&#x27; is missing final newline</span><br><span class="line">E: Sub-process /usr/bin/dpkg returned an error code (2)</span><br></pre></td></tr></table></figure>
+
+<h3 id="install-tar-gz"><a href="#install-tar-gz" class="headerlink" title="install .tar.gz"></a>install .tar.gz</h3><p>可能需要用的一些指令</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf FileName.tar.gz</span><br><span class="line"><span class="built_in">cd</span> FileName</span><br><span class="line">./configure</span><br><span class="line">make</span><br><span class="line"><span class="built_in">sudo</span> make install</span><br></pre></td></tr></table></figure>
+
+<p>以安装Pycharm为例</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /home/boa/Downloads</span><br><span class="line">tar -zxvf pycharm-community-2021.3.tar.gz</span><br><span class="line"><span class="built_in">cd</span> /home/boa/Downloads/pycharm-community-2021.3/bin</span><br><span class="line">./pycharm.sh</span><br></pre></td></tr></table></figure>
+
+<h3 id="install-deb"><a href="#install-deb" class="headerlink" title="install .deb"></a>install .deb</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> dpkg -i FileName.deb</span><br></pre></td></tr></table></figure>
+
+<h2 id="Alist"><a href="#Alist" class="headerlink" title="Alist"></a>Alist</h2><p><a target="_blank" rel="noopener" href="https://alist.nn.ci/">alist offical website</a></p>
+<p>Install</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL <span class="string">&quot;https://alist.nn.ci/v3.sh&quot;</span> | bash -s install</span><br></pre></td></tr></table></figure>
+
+<p>update</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL <span class="string">&quot;https://alist.nn.ci/v3.sh&quot;</span> | bash -s update</span><br></pre></td></tr></table></figure>
+
+<p>Uninstall</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL <span class="string">&quot;https://alist.nn.ci/v3.sh&quot;</span> | bash -s uninstall</span><br></pre></td></tr></table></figure>
+
+<h2 id="openssh"><a href="#openssh" class="headerlink" title="openssh"></a>openssh</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update</span><br><span class="line"><span class="built_in">sudo</span> apt install openssh-server</span><br></pre></td></tr></table></figure>
+
+<p>检查 ssh 是否运行: <code>sudo systemctl status ssh</code></p>
+<p>查看 ssh 端口是否开放: <code>sudo lsof -i:22</code></p>
+<hr>
+<p>update openssh ubuntu manually</p>
+<hr>
+<p>通常，这些日志位于 <code>/var/log/secure</code> 或 <code>/var/log/auth.log</code> 文件中，具体位置取决于您所使用的Linux发行版。</p>
+<h2 id="smb"><a href="#smb" class="headerlink" title="smb"></a>smb</h2><p>您可以使用以下命令在Debian上安装Samba服务器：<code>sudo apt -y install samba</code>。<br>安装后，您可以使用以下命令编辑Samba配置文件：<code>sudo nano /etc/samba/smb.conf</code>。<br>在配置文件中，您可以指定要共享的目录和用户访问权限。要启用Samba服务，请使用以下命令：<code>sudo systemctl enable --now smbd nmbd</code>。</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[home-usb]</span><br><span class="line">   comment = zzbl_usb</span><br><span class="line">   path = /home/boa/Downloads</span><br><span class="line">   writable = yes</span><br><span class="line">   browseable = yes</span><br></pre></td></tr></table></figure>
+
+<p>samba服务添加用户：<code>sudo smbpasswd -a user</code></p>
+<p>要连接到Samba共享，您可以使用以下命令：<code>smbclient //server/share -U user%password</code>。请注意，您需要将“server”替换为Samba服务器的IP地址或主机名，“share”替换为共享的名称，“user”替换为Samba用户的用户名，“password”替换为Samba用户的密码。</p>
+<p>如果您想在Debian上自动挂载Samba共享，请使用以下命令编辑&#x2F;etc&#x2F;fstab文件：<code>//server/share /mnt/mountpoint cifs username=user,password=password 0 0</code>。请注意，您需要将“server”替换为Samba服务器的IP地址或主机名，“share”替换为共享的名称，“user”替换为Samba用户的用户名，“password”替换为Samba用户的密码，“&#x2F;mnt&#x2F;mountpoint”替换为要挂载共享的本地目录。</p>
+<p>比如，要连接 cnm 服务器，编辑文件 <code>sudo nano /etc/fstab</code></p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//192.168.71.102/e /mnt/cnm-smb-e cifs username=administrator,password=password 0 0</span><br><span class="line">//192.168.71.102/f /mnt/cnm-smb-f cifs username=administrator,password=password 0 0</span><br></pre></td></tr></table></figure>
+
+<h2 id="PM2"><a href="#PM2" class="headerlink" title="PM2"></a>PM2</h2><p><a target="_blank" rel="noopener" href="https://juejin.cn/post/6889300755539312653">Pm2的介绍</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/biao0309/article/details/95391644">Pm2 开机自动运行</a></p>
+<h2 id="Linux-管理面板"><a href="#Linux-管理面板" class="headerlink" title="Linux 管理面板"></a>Linux 管理面板</h2><h3 id="webmin"><a href="#webmin" class="headerlink" title="webmin"></a>webmin</h3><p><a target="_blank" rel="noopener" href="http://doxfer.webmin.com/Webmin/Main_Page">WebminWiki</a></p>
+<p>一个好用的web管理工具，可以管理linux的用户，文件，服务等等。</p>
+<h3 id="1Panel"><a href="#1Panel" class="headerlink" title="1Panel"></a>1Panel</h3><p><a target="_blank" rel="noopener" href="https://1panel.cn/">1Panel</a></p>
+<h2 id="wake-on-lan"><a href="#wake-on-lan" class="headerlink" title="wake on lan"></a>wake on lan</h2><h3 id="BIOS-设置"><a href="#BIOS-设置" class="headerlink" title="BIOS 设置"></a>BIOS 设置</h3><p>在BIOS中，需要开启以下几个选项：</p>
+<ul>
+<li>Wake on LAN</li>
+<li>Wake on PCI</li>
+<li>Wake on PME</li>
+</ul>
+<h3 id="Linux端"><a href="#Linux端" class="headerlink" title="Linux端"></a>Linux端</h3><p><a target="_blank" rel="noopener" href="https://wiki.debian.org/WakeOnLan#Checking_WOL">Debian&#x2F;WakeOnLan</a></p>
+<p>在Linux中，需要安装ethtool：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install ethtool</span><br></pre></td></tr></table></figure>
+
+<p>然后使用ethtool查看网卡的Wake on选项：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> ethtool enp2s0</span><br><span class="line"><span class="built_in">sudo</span> ethtool enp0s25</span><br></pre></td></tr></table></figure>
+
+<p>如果输出中包含Wake-on，说明网卡支持Wake on功能。如果输出中包含g，说明网卡已经开启了Wake on功能。如果输出中包含d，说明网卡已经关闭了Wake on功能。如果输出中包含s，说明网卡支持Wake on功能，但是需要软件唤醒。</p>
+<p>如果网卡支持Wake on功能，但是没有开启，可以使用以下命令开启Wake on功能：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> ethtool -s enp2s0 wol g</span><br><span class="line"><span class="built_in">sudo</span> ethtool -s enp0s25 wol g</span><br></pre></td></tr></table></figure>
+
+<h3 id="wol-客户端"><a href="#wol-客户端" class="headerlink" title="wol 客户端"></a>wol 客户端</h3><p>例如，使用 macOS 的话，可以使用 wakeonlan 这个工具</p>
+<p>下载</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">brew install wakeonlan</span><br><span class="line">curl https://raw.githubusercontent.com/jpoliv/wakeonlan/master/wakeonlan -o wakeonlan</span><br><span class="line"><span class="built_in">chmod</span> +x wakeonlan</span><br></pre></td></tr></table></figure>
+
+<p>使用方法</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /users/boa/Documents</span><br><span class="line">./wakeonlan 00:21:cc:71:c6:25</span><br></pre></td></tr></table></figure>
+
+<p>预计输出如下：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Sending magic packet to 255.255.255.255:9 with payload 00:21:cc:71:c6:25</span><br><span class="line">Hardware addresses: &lt;total=1, valid=1, invalid=0&gt;</span><br><span class="line">Magic packets: &lt;sent=1&gt;</span><br></pre></td></tr></table></figure>
+
+<p>Debian系统，wol开机后进入GNU GRUB，不能启动系统，如何解决？</p>
+<p>如何使用Debian清理boot order中多余的启动项？</p>
+<h2 id="powerstat"><a href="#powerstat" class="headerlink" title="powerstat"></a>powerstat</h2><p>测量功耗</p>
+<p>install</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install powerstat</span><br></pre></td></tr></table></figure>
+
+<p>use</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">powerstat -R -c -z</span><br></pre></td></tr></table></figure>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="http://boa-z.github.io">boa</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="http://boa-z.github.io/2024/08/28/application-linux/">http://boa-z.github.io/2024/08/28/application-linux/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/application/">application</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2024/08/28/application-android/" title="application-android"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">Next</div><div class="next_info">application-android</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/2024/08/28/application-android/" title="application-android"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-28</div><div class="title">application-android</div></div></a></div><div><a href="/2024/08/28/application-ios/" title="application-ios"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-28</div><div class="title">application-ios</div></div></a></div><div><a href="/2024/08/28/azure/" title="azure"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-28</div><div class="title">azure</div></div></a></div><div><a href="/2024/08/28/application-macos/" title="application-macos"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-28</div><div class="title">application-macos</div></div></a></div><div><a href="/2024/08/28/chattts/" title="chattts"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-28</div><div class="title">chattts</div></div></a></div><div><a href="/2024/08/28/cloud-storage/" title="cloud-storage"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-28</div><div class="title">cloud-storage</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">boa</div><div class="author-info__description">NMSL</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">20</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Linux-Application"><span class="toc-number">1.</span> <span class="toc-text">Linux Application</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Install-App-on-Linux"><span class="toc-number">1.1.</span> <span class="toc-text">Install App on Linux</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#apt"><span class="toc-number">1.1.1.</span> <span class="toc-text">apt</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#install-tar-gz"><span class="toc-number">1.1.2.</span> <span class="toc-text">install .tar.gz</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#install-deb"><span class="toc-number">1.1.3.</span> <span class="toc-text">install .deb</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Alist"><span class="toc-number">1.2.</span> <span class="toc-text">Alist</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#openssh"><span class="toc-number">1.3.</span> <span class="toc-text">openssh</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#smb"><span class="toc-number">1.4.</span> <span class="toc-text">smb</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#PM2"><span class="toc-number">1.5.</span> <span class="toc-text">PM2</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Linux-%E7%AE%A1%E7%90%86%E9%9D%A2%E6%9D%BF"><span class="toc-number">1.6.</span> <span class="toc-text">Linux 管理面板</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#webmin"><span class="toc-number">1.6.1.</span> <span class="toc-text">webmin</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1Panel"><span class="toc-number">1.6.2.</span> <span class="toc-text">1Panel</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#wake-on-lan"><span class="toc-number">1.7.</span> <span class="toc-text">wake on lan</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#BIOS-%E8%AE%BE%E7%BD%AE"><span class="toc-number">1.7.1.</span> <span class="toc-text">BIOS 设置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Linux%E7%AB%AF"><span class="toc-number">1.7.2.</span> <span class="toc-text">Linux端</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#wol-%E5%AE%A2%E6%88%B7%E7%AB%AF"><span class="toc-number">1.7.3.</span> <span class="toc-text">wol 客户端</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#powerstat"><span class="toc-number">1.8.</span> <span class="toc-text">powerstat</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/08/28/application-linux/" title="application-linux">application-linux</a><time datetime="2024-08-28T13:40:14.000Z" title="Created 2024-08-28 21:40:14">2024-08-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/08/28/application-android/" title="application-android">application-android</a><time datetime="2024-08-28T13:40:14.000Z" title="Created 2024-08-28 21:40:14">2024-08-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/08/28/application-ios/" title="application-ios">application-ios</a><time datetime="2024-08-28T13:40:14.000Z" title="Created 2024-08-28 21:40:14">2024-08-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/08/28/azure/" title="azure">azure</a><time datetime="2024-08-28T13:40:14.000Z" title="Created 2024-08-28 21:40:14">2024-08-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/08/28/application-macos/" title="application-macos">application-macos</a><time datetime="2024-08-28T13:40:14.000Z" title="Created 2024-08-28 21:40:14">2024-08-28</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By boa</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
